@@ -1048,7 +1048,7 @@ myagents=random.choice(['Mozilla/5.0 (Linux; Android 11; Nokia 3.2 Build/RKQ1.20
                
                 
                 
-                ok.close()
+                ok.close(
                 oks.append(uid+pass1)
             else:
                 if 'checkpoint' in rana.cookies.get_dict().keys():
