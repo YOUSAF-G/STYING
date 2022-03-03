@@ -1045,7 +1045,7 @@ myagents=random.choice(['Mozilla/5.0 (Linux; Android 11; Nokia 3.2 Build/RKQ1.20
   
 
             
-                print "\x1b[1;92m[YOUSAF-OK] "+uid + " | " + pass1
+               
                 ok=open('rsa-ok.txt', 'a')
                 ok.write(uid+ " | " +pass1+ "\n")
                 ok.close()
