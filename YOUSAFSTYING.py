@@ -1047,7 +1047,7 @@ myagents=random.choice(['Mozilla/5.0 (Linux; Android 11; Nokia 3.2 Build/RKQ1.20
             
                
                 
-                ok.write(uid+ " | " +pass1+
+                
                 ok.close()
                 oks.append(uid+pass1)
             else:
